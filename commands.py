@@ -2,9 +2,8 @@ from bot_config import dp, bot
 from aiogram import types
 from random import randint
 from pytube import YouTube
-from aiogram.types import ReplyKeyboardRemove, \
-        ReplyKeyboardMarkup, KeyboardButton, \
-        InlineKeyboardMarkup, InlineKeyboardButton
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+
 total = 150
 turn = 1
 text = ''
